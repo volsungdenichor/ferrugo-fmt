@@ -9,7 +9,7 @@ add_subdirectory(tests)
 include(FetchContent)
 
 FetchContent_Declare(ferrugo-core
-    GIT_REPOSITORY git@github.com:volsungdenichor/ferrugo-core.git
+    GIT_REPOSITORY https://github.com/volsungdenichor/ferrugo-core.git
     GIT_TAG main)
 
 FetchContent_MakeAvailable(ferrugo-core)
